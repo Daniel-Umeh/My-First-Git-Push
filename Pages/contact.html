@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contaacts </title>
+    <link rel="stylesheet" href="../Styles/style.css">
+
+    <style>
+        a{
+            color: lightskyblue;
+        }
+    </style>
+</head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+      <div class="menu">
+      <fielset>
+        <label id="name-label"> Name <input id="name" type="text" name="name" class="first" placeholder="Enter your name" required
+      /></label>
+      <label id="email-label"> Email <input id="email" type="email" name="email" class="first" placeholder="Enter your email" required /></label>
+      <label id="number-label"> Age <input id="number" type="number" name="age" min="10" max="60" class="first" placeholder="Age" required /></label>
+       <label> Current Job <br>
+         <select id="dropdown">
+          <option> Select one </option>
+          <option> Working </option>
+          <option> Not Working </option>
+          <option> Prefer not to say </option>
+         </select>
+      </label>
+     </fieldset>
+    </form>
+
+    
+      <label> Any comments or suggestions? <br>
+        <textarea placeholder="Enter Your Comment Here" rows="5" cols="50"></textarea>
+      </label>
+    </fieldset>
+
+    <input type="submit" id="submit"></input>
+   <div>
+    <hr>
+
+    <p><a href="../index.html">Go back To Home Page</a> </p>
+
+</body>
+</html>
